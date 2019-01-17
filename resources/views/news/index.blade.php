@@ -76,6 +76,15 @@
 	<script>
 		var __$nodeid = 384194;
 	</script>
+	<script>
+		var _hmt = _hmt || [];
+		(function () {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?7d2f78fdb665c41be8e2ec5809be3e1b";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
 </head>
 
 <body>
@@ -1308,26 +1317,26 @@
 					?>
 					@foreach($article as $vel)
 					<ul class="m-list5">
-					<li><a href="/article/{{$vel->id}}" data-pubtime='{{$vel->create_time}}' target="_blank">{{$vel->title}}</a></li>
+						<li><a href="/article/{{$vel->id}}" data-pubtime='{{$vel->create_time}}' target="_blank">{{$vel->title}}</a></li>
 					</ul>
 					@endforeach
-					</div>
-					@else
-					<a href="/article/{{$last_article->id}}" data-pubtime='{{$last_article->create_time}}' target="_blank"><img src="{{$last_article->news_pic}}"
-						border="0">
-					   <h3>{{$last_article->title}}</h3>
-				   </a>
 				</div>
-				<ul class="m-list5">
-					@foreach($article as $vol)
-					<li><a href="/article/{{$vol->id}}" data-pubtime='{{$vol->create_time}}' target="_blank">{{$vol->title}}</a></li>
-					@endforeach
-				</ul>
-					@endif
-				
+				@else
+				<a href="/article/{{$last_article->id}}" data-pubtime='{{$last_article->create_time}}' target="_blank"><img src="{{$last_article->news_pic}}"
+					 border="0">
+					<h3>{{$last_article->title}}</h3>
+				</a>
 			</div>
-			@endforeach
+			<ul class="m-list5">
+				@foreach($article as $vol)
+				<li><a href="/article/{{$vol->id}}" data-pubtime='{{$vol->create_time}}' target="_blank">{{$vol->title}}</a></li>
+				@endforeach
+			</ul>
+			@endif
+
 		</div>
+		@endforeach
+	</div>
 
 	</div>
 

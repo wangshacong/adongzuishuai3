@@ -66,6 +66,15 @@
         var __$Liability = "李美仪";
         var __$pubtime = "2019-01-14 09:20:15";
     </script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?7d2f78fdb665c41be8e2ec5809be3e1b";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 </head>
 
 <body style="margin-top:12px;">
@@ -86,11 +95,11 @@
             <div class="m-search">
                 <form id="searchForm">
                     <div class="search_form">
-                        {{--  <div class="search_text">
+                        {{-- <div class="search_text">
 
                             <input type="text" autocomplete="off" name="search" title="请输入要搜索的内容" value="输入关键字" onfocus="if (this.value == '输入关键字') {this.value = '';}"
                                 onblur="if (this.value == '') {this.value = '输入关键字';}" class="search" id="search">
-                        </div>  --}}
+                        </div> --}}
 
                         <button class="search_btn" id="search_btn">搜索</button>
                     </div>
@@ -110,7 +119,7 @@
         <?php 
             $fenlei = \DB::Table('fenlei3s')->where('id',$v['fenlei_id'])->first();
         ?>
-       
+
         <a href="/fenlei/{{$fenlei->id}}" target="_self" class="crm-link">{{$fenlei->fenlei_name}}</a>
         <Font class="dot">></Font><a href="/article/{{$v->id}}" target="_self" class="crm-link">内容</a>
         @endforeach
@@ -126,7 +135,7 @@
                 <h3 id="article_subtitle">
 
                 </h3>
-               
+
 
                 <div class="meta">
                     <div class="fl">
@@ -166,7 +175,7 @@
         @include('gong.right')
     </div>
 
-    
+
 
     <script src="http://u.southcn.com/wechatshare/jssdk/share.js"></script>
     <script>

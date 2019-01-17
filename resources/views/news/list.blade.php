@@ -99,6 +99,15 @@
     <script>
         var __$nodeid = 384370;
     </script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?7d2f78fdb665c41be8e2ec5809be3e1b";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 </head>
 
 <body>
@@ -146,8 +155,7 @@
         <div class="main">
             <div class="m-lists">
                 @foreach($article as $v)
-                <div class="itm j-link" data-link="/article/{{$v['id']}}}"><a
-                        href="/article/{{$v['id']}}}" target="_blank"></a>
+                <div class="itm j-link" data-link="/article/{{$v['id']}}}"><a href="/article/{{$v['id']}}}" target="_blank"></a>
                     <div class="pw">
                         <h3><a href="/article/{{$v['id']}}}" target="_blank">{{$v['title']}}</a></h3>
                         <div class="pa"></div>
@@ -157,7 +165,7 @@
                     </div>
                 </div>
                 @endforeach
-                
+
             </div>
             <div class="m-pager"></div>
             <div id="displaypagenum" totalcount="50" currentpage="1">
@@ -166,7 +174,7 @@
                         <a href=http://www.southcn.com/pc2018/yw/node_384370_3.htm class="page">3</a> <span class="page">...</span>
                         <a href=http://www.southcn.com/pc2018/yw/node_384370_50.htm class="page">50</a> <a href=http://www.southcn.com/pc2018/yw/node_384370_2.htm
                             class="page">下一页</a> <span class="page"></span></center>
-                            {{$article->appends(request()->all())->links()}}
+                    {{$article->appends(request()->all())->links()}}
                 </p>
             </div>
             <script language="javascript">
@@ -179,7 +187,7 @@
 
 
         <!--utf-8-->
-       @include('gong.right')
+        @include('gong.right')
     </div>
 
     <script src="http://u.southcn.com/wechatshare/jssdk/share.js"></script>
