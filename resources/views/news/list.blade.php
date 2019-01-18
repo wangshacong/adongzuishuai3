@@ -146,9 +146,9 @@
     <div class="m-ad1 g-wp f-cb" id="ad_01">
     </div>
     <div class="m-crm g-wp">
-        @foreach($dangqian_fenlei as $v)
         <a href="http://www.southcn.com/">广州实创</a>
-        <font class="dot">></font><a href="http://www.southcn.com/pc2018/default.htm" target="_self" class="crm-link">{{$v['fenlei_name']}}</a>
+        @foreach($dangqian_fenlei as $v)
+        <font class="dot">></font><a href="/fenlei/{{$v['id']}}" target="_self" class="crm-link">{{$v['fenlei_name']}}</a>
         @endforeach
     </div>
     <div class="m-content g-wp f-cb" id="content">
