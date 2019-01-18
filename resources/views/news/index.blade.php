@@ -88,7 +88,6 @@
 </head>
 
 <body>
-	<div class="m-ad3 f-wp f-cb" id="index_ad04"></div>
 	@include('gong.head')
 	{{-- <div class="m-cnav">
 		<div class="f-wp">
