@@ -19,7 +19,3 @@
             <a target="_blank" href="http://www.bjxscwz.com/">北京实创新闻</a></div>
     </div>
 </div>
-<div class="f-wp" style="text-align:center;margin-top: -55px">
-    <a href="http://bszs.conac.cn/sitename?method=show&id=1D8D66A8B6463EFDE053012819AC3595" target="_blank"><img id="imgConac"
-            vspace="0" hspace="0" border="0" src="http://www.southcn.com/public/2018/img/blue_sydw.png"
-            data-bd-imgshare-binded="1"></a></div>
