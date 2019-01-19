@@ -155,7 +155,7 @@
                 @foreach($article as $v)
                 <div class="itm j-link" data-link="/article/{{$v['id']}}}"><a href="/article/{{$v['id']}}}" target="_blank"></a>
                     <div class="pw">
-                        <h3><a href="/article/{{$v['id']}}}" target="_blank">{{$v['title']}}</a></h3>
+                        <h3><a href="/article/{{$v['id']}}" target="_blank">{{$v['title']}}</a></h3>
                         <div class="pa"></div>
                         <div class="meta">
                             <div class="time">{{$v['create_time']}}</div>
