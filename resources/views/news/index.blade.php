@@ -73,6 +73,8 @@
 	<meta name="googlebot" content="index, follow" />
 	<meta name="baidu-site-verification" content="Tocx3kKUE9" />
 	<link rel="stylesheet" href="http://www.southcn.com/public/2018/css/style.css?version=0.23283728">
+	<link rel="stylesheet" href="/css/app.css">
+	
 	<script>
 		var __$nodeid = 384194;
 	</script>
