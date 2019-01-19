@@ -147,10 +147,8 @@
     <div class="m-ad1 g-wp f-cb" id="ad_01">
     </div>
     <div class="m-crm g-wp">
-        @foreach($dangqian_fenlei as $v)
         <a href="http://www.southcn.com/">广州实创</a>
-        <font class="dot">></font><a href="http://www.southcn.com/pc2018/default.htm" target="_self" class="crm-link">{{$v['fenlei_name']}}</a>
-        @endforeach
+        <font class="dot">></font><a href="/fenlei/{{$dangqian_fenlei['id']}}" target="_self" class="crm-link">{{$dangqian_fenlei['fenlei_name']}}</a>
     </div>
     <div class="m-content g-wp f-cb" id="content">
         <div class="main">
@@ -158,7 +156,7 @@
                 @foreach($article as $v)
                 <div class="itm j-link" data-link="/article/{{$v['id']}}}"><a href="/article/{{$v['id']}}}" target="_blank"></a>
                     <div class="pw">
-                        <h3><a href="/article/{{$v['id']}}}" target="_blank">{{$v['title']}}</a></h3>
+                        <h3><a href="/article/{{$v['id']}}" target="_blank">{{$v['title']}}</a></h3>
                         <div class="pa"></div>
                         <div class="meta">
                             <div class="time">{{$v['create_time']}}</div>

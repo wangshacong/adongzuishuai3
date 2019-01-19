@@ -121,10 +121,9 @@
         <?php 
             $fenlei = \DB::Table('fenlei3s')->where('id',$v['fenlei_id'])->first();
         ?>
-
         <a href="/fenlei/{{$fenlei->id}}" target="_self" class="crm-link">{{$fenlei->fenlei_name}}</a>
-        <Font class="dot">></Font><a href="/article/{{$v->id}}" target="_self" class="crm-link">内容</a>
         @endforeach
+        <Font class="dot">></Font><a href="/article/{{$v->id}}" target="_self" class="crm-link">内容</a>
     </div>
 
 
