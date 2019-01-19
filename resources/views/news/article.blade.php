@@ -14,6 +14,7 @@
     <meta name="publishdate" content="2019-01-14" />
     <meta name="author" content="梁惠敏" />
     <meta name="source" content="南方网" />
+    
     @foreach($content as $v)
     <title>{{$v['title']}}</title>
     @endforeach
@@ -54,10 +55,11 @@
             setTimeout(getDF, 500)
         }
     </script>
+   
     <link rel="stylesheet" href="http://www.southcn.com/public/2018/css/normal.css">
     <link rel="stylesheet" href="http://www.southcn.com/public/2018/css/article.css">
     <link rel="stylesheet" href="http://www.southcn.com/public/2018/css/style.css?version=0.23283728">
-
+    <link rel="stylesheet" href="/css/app.css">
     <script>
         var __$nodeid = 321237;
         var __$contentid = 184820740;

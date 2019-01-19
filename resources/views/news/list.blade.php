@@ -96,6 +96,7 @@
     <link rel="stylesheet" href="http://www.southcn.com/public/2018/css/normal.css">
     <link rel="stylesheet" href="http://www.southcn.com/public/2018/css/list.css">
     <link rel="stylesheet" href="http://www.southcn.com/public/2018/css/style.css?version=0.23283728">
+    <link rel="stylesheet" href="/css/app.css">
     <script>
         var __$nodeid = 384370;
     </script>
