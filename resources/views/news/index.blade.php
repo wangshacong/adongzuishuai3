@@ -7,8 +7,8 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>广州实创新闻·Guangdong News</title>
 	<base target="_blank" />
-	<meta name="Keywords" content="要闻,讲习所,广东,中国,国际,经济,社会,直播,快报,融媒,网评,理论,专题,公告,英文,法治,大湾区,双创,汽车,时尚,文娱,房产,IT,旅游,教育,体育,健康,视觉,文化,乡村" />
-	<meta name="description" content="南方网/南方新闻网是经中共广东省委，广东省人民政府批准建设的新闻宣传网站。南方网/南方新闻网由广东省委宣传部主办主管并作为南方报业传媒集团之成员单位，获国务院新闻办公室批准从事登载新闻业务并被确定为全国重点新闻网站之一。南方网/南方新闻网作为华南地区最大型的新闻融合平台，是国内外网民认识、了解广东最权威、最快捷的途径。" />
+	<meta name="keywords" content="广州实创新闻,最新国际消息,最新实时新闻,经济,中国新闻,社会新闻,法制,广东精选,华南金融,财经专栏,国际新闻,科技" />
+	<meta name="description" content="广州实创新闻是包含海量资讯的新闻服务平台，真实反映每时每刻的新闻热点。" />
 	<script>
 		! function (a) {
 			var b = /iPhone/i,

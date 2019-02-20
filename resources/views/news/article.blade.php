@@ -17,11 +17,10 @@
     
     @foreach($content as $v)
     <title>{{$v['title']}}</title>
+    <meta name="keywords" content="{{$v['title']}}">
+    <meta name="description" content="{{mb_substr(preg_replace('/<.*?>/','',$v['content']),0,50)}}">
     @endforeach
-    <meta name="keywords" content="" />
-    <meta itemprop="image" content="http://www.southcn.com/public/2016/img/nfw-cover.jpg" />
-    <meta name="description" itemprop="description" content="13—15日，由广东省特色小镇发展促进会主办的第二届特色小镇交流对洽会在云浮新兴县六祖镇举行。
-" />
+
     <!-- 网站图标 -->
     <link rel="shortcut icon" href="http://www.southcn.com/favicon.ico" />
     <script>
